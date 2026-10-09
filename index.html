@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semana 04 – Arrays, DOM e Eventos</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; }
+    li { cursor: pointer; margin: .25rem 0; }
+    .destaque { color: #b45309; font-weight: bold; }
+    .feito { text-decoration: line-through; opacity: .6; }
+    input, button { padding: .4rem .6rem; font-size: 1rem; }
+    form, .campo { margin: 1rem 0; }
+  </style>
+</head>
+<body>
+  <h1 id="titulo">Título original</h1>
+
+  <p class="texto">Primeiro parágrafo do blog.</p>
+  <p class="texto">Segundo parágrafo do blog.</p>
+  <p class="texto">Terceiro parágrafo do blog.</p>
+
+  <button id="botao">Clique aqui</button>
+
+  <div class="campo">
+    <label for="nome">Seu nome:</label>
+    <input type="text" id="nome" placeholder="Digite seu nome">
+  </div>
+
+  <ul id="lista">
+    <!-- 3 <li> estáticos para o exercício de Event Delegation -->
+    <li>Item estático 1</li>
+    <li>Item estático 2</li>
+    <li>Item estático 3</li>
+  </ul>
+
+  <form id="formulario">
+    <input type="text" id="tarefa" placeholder="Nova tarefa">
+    <button type="submit">Adicionar</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
